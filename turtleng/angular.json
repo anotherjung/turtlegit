@@ -25,9 +25,17 @@
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/landing-page.css",
+              "src/assets/css/pe-icon-7-stroke.css"
+
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-1.10.2.js",
+              "src/assets/js/jquery-ui-1.10.4.custom.min.js",
+              "src/assets/js/bootstrap.js",
+              "src/assets/js/awesome-landing-page.js"
+            ]
           },
           "configurations": {
             "production": {
